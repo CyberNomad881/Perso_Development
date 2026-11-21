@@ -40,6 +40,11 @@ Full operating rule, mechanisms and the non-compliance record: `salsa/kaizen/NO_
 - Track every step with `python kaizen/kaizen_log.py event improvement_log.jsonl --type problem|result|incident
   --problem ... --hypothesis ... --action ... --result ... --next ...`, then `render` to `IMPROVEMENT_LOG.md`.
 
+- **If everything left needs Tamer's yes, that is a stall:** run the problem-solving law in the same turn. Agents take
+  a hard look at the current problems (including why progress hangs on that yes) and build and test solutions that
+  need no yes. Log a `problem` and a `result` row. "Waiting" may be reported only after that round is logged
+  (`NO_HALT.md` §3c-bis).
+
 ## 5. Questions to Tamer
 - Every question is framed around the most useful next step, carries a recommendation, and the recommended option
   (if reversible) is built while he decides.
