@@ -21,8 +21,8 @@ Full operating rule, mechanisms and the non-compliance record: `salsa/kaizen/NO_
 ## 2. When the PC is offline (the cause of the 21 Nov halt)
 - Say so in one line and, **in the same turn**, take the top open item of `salsa/kaizen/CLOUD_BACKLOG.md` (ranked
   cloud-only work) and start it.
-- Retry the PC by scheduled check-in with backoff (30 min, 1 h, 2 h, then every 2 h; at most once overnight
-  22:00-08:00 Geneva) until it succeeds. Never "stop retrying" or "leave it for next week". A check-in runs beside
+- Retry the PC by scheduled check-in with backoff (15 min, 30 min, 1 h, then hourly, as in RSI rules §7; at most
+  once overnight 22:00-08:00 Geneva) until it succeeds. Never "stop retrying" or "leave it for next week". A check-in runs beside
   work, never instead of it.
 - PC-side steps live in `salsa/kaizen/standstill/pc_queue/` (one resumable command), ready to run the moment the PC
   is back.
@@ -62,4 +62,5 @@ device, schedule the next check and keep cloud work running.
 - Keep files in sync between the project's shared folder / cloud sessions and `C:\Projects\project801`; a failed sync
   is fixed and finished, never deferred.
 - Pre-register tests (sha256 + date) in `kaizen/TESTS.md`; adopt only on a 🟢 holdout result.
+- Commits carry the owner's identity (CyberNomad881) and no AI attribution (RSI rules §6).
 - Frame work around the three pillars: pattern recognition, prediction, creation.
