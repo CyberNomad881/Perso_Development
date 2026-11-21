@@ -6,7 +6,7 @@ and the listening page waited) was the **last non-compliance**. Any future idle 
 same day as an `incident` row.
 
 Full operating rule, mechanisms and the non-compliance record: `salsa/kaizen/NO_HALT.md` in the project's shared folder
-(`C:\Projects\project801\salsa\kaizen\NO_HALT.md` on the PC). Tamer's RSI rules:
+(`C:\Projects\project801\kaizen\NO_HALT.md` on the PC). Tamer's RSI rules:
 `C:\Projects\project801\continuous-improvement-rules.md` (§7, §10.8).
 
 ## 1. Primary law: continuous improvement never stops
