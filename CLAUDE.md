@@ -69,3 +69,10 @@ device, schedule the next check and keep cloud work running.
 - Pre-register tests (sha256 + date) in `kaizen/TESTS.md`; adopt only on a 🟢 holdout result.
 - Commits carry the owner's identity (CyberNomad881) and no AI attribution (RSI rules §6).
 - Frame work around the three pillars: pattern recognition, prediction, creation.
+
+## 9. Team roster (full version: `salsa/kaizen/OPERATING_LAWS.md` §9)
+Reports are signed "<Name>, <Workflow>: <Kind>". Anika: Beat recognition (1v5). Strahil: Useful models. Kenji: Move
+detection. Amara: Dancer detection. Mateo: Song recognition. Leila: Combined pipeline. Sione: Process. Yara: AI
+integration (22 Nov 2026). Outside AIs: any API key, subscription, purchase or sending of project data to an outside AI
+needs Tamer's yes first; every answer is scored through `salsa/research/ai_integration/code/yara_run.py`; an outside AI
+is a voter, never ground truth.
